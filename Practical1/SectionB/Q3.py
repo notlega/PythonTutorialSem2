@@ -3,25 +3,21 @@
 
 
 def main():
-    print("----------------------------------------------------")
-    print("Fahrenheit to Celcius Conversion")
-    print("----------------------------------------------------")
+		print("----------------------------------------------------")
+		print("Fahrenheit to Celcius Conversion")
+		print("----------------------------------------------------")
 
-    # get fahrenheit temp in float
-    fahrenheitTemp = float(input("Enter the temperature in fahrenheit : "))
+		# get fahrenheit temp in float
+		fahrenheitTemp = float(input("Enter the temperature in fahrenheit : "))
 
-    # convert from fahrenheit to celcius
-    celciusTemp = 5 / 9 * (fahrenheitTemp - 32)
+		# convert from fahrenheit to celcius
+		celciusTemp = 5 / 9 * (fahrenheitTemp - 32)
 
-    print("----------------------------------------------------")
-    # str.format to format the string celciusTemp into 2dp
-    print(
-        str.format(
-            "Temperature in celcius is : {celciusTemp:.2f}", celciusTemp=celciusTemp
-        )
-    )
-    print("----------------------------------------------------")
+		print("----------------------------------------------------")
+		# str.format to format the string celciusTemp into 2dp
+		print("Temperature in celcius is : {:.2f}".format(celciusTemp))
+		print("----------------------------------------------------")
 
 
 if __name__ == "__main__":
-    main()
+		main()
