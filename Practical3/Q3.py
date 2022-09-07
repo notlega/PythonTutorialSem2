@@ -12,9 +12,7 @@
 
 def main():
 		print("----------------------------------------------------")
-		booleanExit = False
-		while booleanExit == False:
-
+		while True:
 				# number input in integer
 				userInput = int(input("Enter a number between 0 - 100: "))
 
@@ -50,7 +48,7 @@ def main():
 								print("Your grade is F!")
 
 						# exit the program
-						booleanExit = True
+						break
 
 
 if __name__ == "__main__":
