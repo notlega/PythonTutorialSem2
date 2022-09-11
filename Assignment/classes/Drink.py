@@ -1,9 +1,9 @@
 from classes.Food import Food
 
 
-class Dish(Food):
+class Drink(Food):
 		"""
-		A child class of Food used to represent types of Dishes
+		A child class of Food used to represent types of Drinks
 
 		...
 

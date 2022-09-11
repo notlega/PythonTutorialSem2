@@ -1,4 +1,4 @@
-import getpass
+from getpass import getpass
 from options.ViewMenu import ViewMenu
 from utils.ReadWrite import ReadWrite
 
@@ -55,7 +55,7 @@ class Main:
 						try:
 								intInput = int(strInput)
 						except ValueError:
-								getpass.getpass("Invalid input, please enter to continue.")
+								getpass("Invalid input, please enter to continue.")
 								continue
 
 						if intInput == 1:
@@ -70,10 +70,11 @@ class Main:
 						elif intInput == 0:
 								break
 						else:
-								getpass.getpass("Invalid input, please enter to continue.")
+								getpass("Invalid input, please enter to continue.")
 
 				readWrite.write(food)
 				print("Thank you for using Happy Restaurant!")
+
 
 if __name__ == "__main__":
 		main = Main()
