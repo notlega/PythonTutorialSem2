@@ -338,3 +338,6 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/git,python,jupyternotebooks,visualstudiocode,webstorm,text
+
+# Custom rules
+!p2_t1_data.txt
