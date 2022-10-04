@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/git,python,jupyternotebooks,visualstudiocode,webstorm,text
-# Edit at https://www.toptal.com/developers/gitignore?templates=git,python,jupyternotebooks,visualstudiocode,webstorm,text
+# Created by https://www.toptal.com/developers/gitignore/api/git,text,python,webstorm,jupyternotebooks,visualstudiocode,spreadsheet
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,text,python,webstorm,jupyternotebooks,visualstudiocode,spreadsheet
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -189,6 +189,12 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+### Spreadsheet ###
+*.csv
+*.xlr
+*.xls
+*.xlsx
+
 ### Text ###
 *.doc
 *.docx
@@ -337,7 +343,21 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
 
-# End of https://www.toptal.com/developers/gitignore/api/git,python,jupyternotebooks,visualstudiocode,webstorm,text
+# End of https://www.toptal.com/developers/gitignore/api/git,text,python,webstorm,jupyternotebooks,visualstudiocode,spreadsheet
 
 # Custom rules
+### Spreadsheet ###
+!Practical6/*.csv
+!Practical6/*.xlr
+!Practical6/*.xls
+!Practical6/*.xlsx
+
+### Text ###
+!Practical6/*.doc
+!Practical6/*.docx
+!Practical6/*.msg
+!Practical6/*.pages
+!Practical6/*.rtf
 !Practical6/*.txt
+!Practical6/*.wpd
+!Practical6/*.wps
