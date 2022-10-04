@@ -6,26 +6,22 @@
 # c) Open "greeting.txt" to confirm if lines are added successfully
 
 
-import os
-
-
 def main():
 		# (a)
 		# open file for writing
-		if not os.path.exists("greeting.txt"):
-				# create file
-				file = open("greeting.txt", "w")
-				# write text
-				file.write("Hello Sir!")
-				# close file
-				file.close()
+		# create file
+		file = open("greeting.txt", "w")
+		# write text
+		file.write("Hello Sir!")
+		# close file
+		file.close()
 
 		# (b)
 		# open file for appending
 		file = open("greeting.txt", "a")
 		# write text
-		file.write("How are you?")
-		file.write("Hope you are fine")
+		file.write("\nHow are you?")
+		file.write("\nHope you are fine")
 		# close file
 		file.close()
 
